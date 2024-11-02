@@ -25,7 +25,7 @@
   </gnm:Attributes>
   <office:document-meta xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:ooo="http://openoffice.org/2004/office" office:version="1.2">
     <office:meta>
-      <dc:date>2024-09-27T11:06:18Z</dc:date>
+      <dc:date>2024-11-02T09:05:48Z</dc:date>
       <meta:creation-date>2022-11-15T16:46:37Z</meta:creation-date>
     </office:meta>
   </office:document-meta>
@@ -38,7 +38,7 @@
     <gnm:Sheet DisplayFormulas="0" HideZero="0" HideGrid="0" HideColHeader="0" HideRowHeader="0" DisplayOutlines="1" OutlineSymbolsBelow="1" OutlineSymbolsRight="1" Visibility="GNM_SHEET_VISIBILITY_VISIBLE" GridColor="0:0:0">
       <gnm:Name>Sheet1</gnm:Name>
       <gnm:MaxCol>8</gnm:MaxCol>
-      <gnm:MaxRow>141</gnm:MaxRow>
+      <gnm:MaxRow>140</gnm:MaxRow>
       <gnm:Zoom>1</gnm:Zoom>
       <gnm:Names>
         <gnm:Name>
@@ -85,12 +85,7 @@
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="0" startRow="65534" endCol="255" endRow="65534">
-          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
-            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
-          </gnm:Style>
-        </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="0" startRow="65535" endCol="255" endRow="65535">
+        <gnm:StyleRegion startCol="0" startRow="65534" endCol="255" endRow="65535">
           <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
           </gnm:Style>
@@ -168,8 +163,8 @@
         <gnm:ColInfo No="8" Unit="449.2"/>
       </gnm:Cols>
       <gnm:Rows DefaultSizePts="15"/>
-      <gnm:Selections CursorCol="3" CursorRow="88">
-        <gnm:Selection startCol="3" startRow="88" endCol="3" endRow="88"/>
+      <gnm:Selections CursorCol="5" CursorRow="136">
+        <gnm:Selection startCol="5" startRow="136" endCol="5" endRow="136"/>
       </gnm:Selections>
       <gnm:Cells>
         <gnm:Cell Row="0" Col="0" ValueType="60">name</gnm:Cell>
@@ -878,7 +873,7 @@
         <gnm:Cell Row="87" Col="2" ValueType="40">24</gnm:Cell>
         <gnm:Cell Row="87" Col="3" ValueType="40">168</gnm:Cell>
         <gnm:Cell Row="87" Col="4" ExprID="1"/>
-        <gnm:Cell Row="87" Col="5" ValueType="40">8.3900000000000006</gnm:Cell>
+        <gnm:Cell Row="87" Col="5" ValueType="40">10.76</gnm:Cell>
         <gnm:Cell Row="87" Col="6" ExprID="2"/>
         <gnm:Cell Row="87" Col="7" ValueType="60">https://www.amazon.co.uk/dp/B0BMW341NW</gnm:Cell>
         <gnm:Cell Row="88" Col="0" ValueType="60">nicky fashion</gnm:Cell>
@@ -1262,7 +1257,7 @@
         <gnm:Cell Row="135" Col="2" ValueType="40">24</gnm:Cell>
         <gnm:Cell Row="135" Col="3" ValueType="40">150</gnm:Cell>
         <gnm:Cell Row="135" Col="4" ExprID="1"/>
-        <gnm:Cell Row="135" Col="5" ValueType="40">8.5</gnm:Cell>
+        <gnm:Cell Row="135" Col="5" ValueType="40">8.0700000000000003</gnm:Cell>
         <gnm:Cell Row="135" Col="6" ExprID="2"/>
         <gnm:Cell Row="135" Col="7" ValueType="60">https://www.amazon.co.uk/dp/B08HLGKP9J</gnm:Cell>
         <gnm:Cell Row="135" Col="8" ValueType="60">https://www.tesco.com/groceries/en-GB/products/305837579</gnm:Cell>
@@ -1307,7 +1302,7 @@
         <gnm:Cell Row="140" Col="6" ExprID="2"/>
         <gnm:Cell Row="140" Col="7" ValueType="60">https://www.amazon.co.uk/dp/B07PVGB19S</gnm:Cell>
       </gnm:Cells>
-      <gnm:SheetLayout TopLeft="A85">
+      <gnm:SheetLayout TopLeft="A110">
         <gnm:FreezePanes FrozenTopLeft="A1" UnfrozenTopLeft="A2"/>
       </gnm:SheetLayout>
       <gnm:Solver ModelType="0" ProblemType="0" MaxTime="60" MaxIter="1000" NonNeg="1" Discr="0" AutoScale="0" ProgramR="0" SensitivityR="0"/>
