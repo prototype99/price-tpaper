@@ -8,7 +8,6 @@ CREATE TABLE data (
   useCost REAL(4,2),
   urla TEXT,
   urlb TEXT,
-  key id (id)
 );
 
 LOAD DATA LOCAL INFILE './d.csv'
