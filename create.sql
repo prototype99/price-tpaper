@@ -10,13 +10,6 @@ CREATE TABLE data (
   urlb TEXT
 );
 
-LOAD DATA LOCAL INFILE './d.csv'
-INTO TABLE data
-FIELDS TERMINATED BY ','
-ENCLOSED BY '"'
-LINES TERMINATED BY '\n'
-IGNORE 1 ROWS;
-
 UPDATE data SET uses = ( sheets * rolls ) / ( ply - 1 );
 UPDATE data SET useCost = cost / uses;
 
