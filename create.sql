@@ -27,4 +27,4 @@ IGNORE 1 ROWS;
 UPDATE data SET uses = ( sheets * rolls ) / ( ply - 1 );
 UPDATE data SET useCost = cost / uses;
 
-SELECT * from data ORDER BY usesCost;
+SELECT * from data ORDER BY useCost;
