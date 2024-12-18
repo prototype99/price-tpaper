@@ -7,7 +7,7 @@ CREATE TABLE data (
   cost REAL(2,2) NOT NULL,
   useCost REAL(4,2),
   urla TEXT,
-  urlb TEXT,
+  urlb TEXT
 );
 
 LOAD DATA LOCAL INFILE './d.csv'
