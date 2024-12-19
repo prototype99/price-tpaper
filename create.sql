@@ -9,7 +9,7 @@ CREATE TABLE data (
   urla TEXT,
   urlb TEXT
 );
-
+UPDATE data SET uses = ( sheets * rolls ) / ( (CASE WHEN ply = 3 THEN 3 WHEN ply = 4 THEN 2 END) );
 UPDATE data SET uses = ( sheets * rolls ) / ( ply - 1 );
 UPDATE data SET useCost = cost / uses;
 
