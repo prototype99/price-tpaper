@@ -18,14 +18,12 @@ UPDATE data SET
                     )
                     /
                     (
-                        (
-                            CASE
-                                WHEN ply = 3
-                                    THEN 3
-                                WHEN ply = 4
-                                    THEN 2
-                            END
-                        )
+                        CASE
+                            WHEN ply = 3
+                                THEN 3
+                            WHEN ply = 4
+                                THEN 2
+                        END
                     );
 UPDATE data SET useCost = (
     cost + delivery
@@ -33,7 +31,6 @@ UPDATE data SET useCost = (
     /
     uses;
 UPDATE data SET useCostDisc = useCost * (
-    (
         CASE
             WHEN multiDisc = 0
                 THEN 1
@@ -41,7 +38,6 @@ UPDATE data SET useCostDisc = useCost * (
                 1 - multiDisc / 100
             )
         END
-    )
     );
 
 SELECT * from data ORDER BY useCost;
