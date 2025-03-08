@@ -30,15 +30,7 @@ UPDATE data SET useCost = (
     )
     /
     uses;
-UPDATE data SET useCostDisc = useCost * (
-        CASE
-            WHEN multiDisc = 0
-                THEN 1
-            ELSE (
-                1 - multiDisc / 100
-            )
-        END
-    );
+UPDATE data SET useCostDisc = useCost * multiDisc;
 
 SELECT * from data ORDER BY useCost;
 SELECT * from data ORDER BY useCostDisc;
