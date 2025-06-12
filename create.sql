@@ -1,17 +1,3 @@
-CREATE TABLE data (
-    name TEXT NOT NULL,
-    ply INTEGER(1) NOT NULL,
-    rolls INTEGER(2) NOT NULL,
-    sheets INTEGER(3) NOT NULL,
-    uses INTEGER(4),
-    multiQuan INTEGER(1) NOT NULL,
-    multiDisc INTEGER(2) NOT NULL,
-    cost REAL(2,2) NOT NULL,
-    delivery REAL(1,2) NOT NULL,
-    useCost REAL(4,2),
-    useCostDisc REAL(4,2),
-    url TEXT
-);
 UPDATE data SET
                 uses = (
                     sheets * rolls
